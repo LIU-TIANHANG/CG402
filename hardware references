@@ -3,3 +3,28 @@ GY521 - http://www.haoyuelectronics.com/Attachment/GY-521/mpu6050.pdf
 ultra 96 - https://www.96boards.org/product/ultra96/
 
 arduino beetles ble
+
+
+Ultra 96 : 
+	Datasheet: https://www.96boards.org/documentation/consumer/ultra96/
+	Voltage: 12v
+	Current : 2A
+	Power supply: 12 V battery  (https://shopee.sg/GP-23A-12V-Alkaline-Battery-5pcs-Pack---same-battery-as-A23--V23GA--MN21-i.16194072.137967089?gclid=EAIaIQobChMI0-rar8TB5wIVRqqWCh0aAgoGEAQYASABEgL4FPD_BwE)
+Need to calculate c rating
+
+	Arduino beetles:
+		Datasheet : https://wiki.dfrobot.com/Bluno_Beetle_SKU_DFR0339
+		Voltage : <8v 
+		Max Current :  35.4 mA
+		Power supply: 2 * CR3032/LIR2032 (rechargeable button battery)
+
+	GY521 (MPU 6050) :
+Datasheet :http://www.haoyuelectronics.com/Attachment/GY-521/mpu6050.pdf
+Voltage: 3.3 ~ 5v
+Current: 3.6ma (gryo) + 500ma (accelemetero) 
+		
+	Myoware muscle sensor :
+		Datasheet:https://cdn.sparkfun.com/assets/a/3/a/f/a/AT-04-001.pdf
+		Voltage: 3.3~8v
+		Max current 14 ma
+		If using the 
